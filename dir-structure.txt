@@ -1,0 +1,17 @@
+ha-widanv2/
+├── db
+│   ├── Dockerfile
+│   └── widan_db.sql
+├── delete.sh
+├── deploy.sh
+├── haproxy.cfg
+├── installation_docker
+│   ├── install-deb.sh
+│   └── install-jammy.sh
+├── user.sh
+├── widan.yml
+└── web
+    ├── app/
+    ├── conf
+    │   └── 000-default.conf
+    └── Dockerfile
