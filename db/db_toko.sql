@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 14 Feb 2023 pada 07.40
+-- Waktu pembuatan: 29 Mar 2023 pada 02.25
 -- Versi server: 10.4.27-MariaDB
 -- Versi PHP: 8.1.12
 
@@ -56,14 +56,6 @@ CREATE TABLE `detailorder` (
   `idproduk` int(11) NOT NULL,
   `qty` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data untuk tabel `detailorder`
---
-
-INSERT INTO `detailorder` (`detailid`, `orderid`, `idproduk`, `qty`) VALUES
-(13, '15wKVT0nej25Y', 1, 100),
-(14, '15PzF03ejd8W2', 2, 1);
 
 -- --------------------------------------------------------
 
@@ -182,9 +174,14 @@ CREATE TABLE `produk` (
 --
 
 INSERT INTO `produk` (`idproduk`, `idkategori`, `namaproduk`, `gambar`, `deskripsi`, `rate`, `hargabefore`, `hargaafter`, `tgldibuat`) VALUES
-(1, 1, 'Mawar Merah', 'produk/7443a12318c5f4f29059d243fd14f447.png', 'Setangkai mawar merah', 5, 23000, 19000, '2019-12-20 09:10:26'),
-(2, 1, 'Mawar Putih', 'produk/15kwuDMbYtraw.png', 'Setangkai mawar putih', 4, 24000, 19500, '2019-12-20 09:24:13'),
-(3, 3, 'Bunga Hidup', 'produk/15Ak7lFMfvuJc.jpg', 'Bunga Hidup', 5, 25000, 15000, '2020-03-16 12:16:53');
+(4, 1, 'Batagor', 'produk/16iRjADCh1NmY.jpg', 'Batagor dengan isi Pangsit Goreng dan Tahu Baso dan di siram kuah ataupun bumbu kacang ', 4, 5000, 5000, '2023-03-25 03:57:20'),
+(5, 2, 'Pensil', 'produk/16B0KK3.pcNqU.jpg', 'Pensil 2B', 3, 3000, 3000, '2023-03-25 04:02:47'),
+(6, 2, 'Pulpen', 'produk/16OCL3UHetFv6.jpg', 'Pena hitam untuk buku', 3, 4000, 4000, '2023-03-25 04:07:03'),
+(7, 1, 'Donat', 'produk/16oeVjHJSbGU6.jpg', 'Donut dengan aneka rasa', 4, 3500, 3500, '2023-03-25 04:17:05'),
+(8, 1, 'Roti Jabrig', 'produk/16yglemj1HStY.jpg', 'Roti dengan atasan keju melimpah', 4, 4000, 4000, '2023-03-29 00:09:09'),
+(9, 1, 'Teh Poci', 'produk/16QxQUBI4YcCQ.png', 'Teh dengan berbagai rasa', 5, 3000, 3000, '2023-03-29 00:14:32'),
+(10, 1, 'Seblak', 'produk/16xz2VGYI1X9A.jpg', 'Seblak berbagai macam toping', 4, 5000, 5000, '2023-03-29 00:18:33'),
+(11, 1, 'Roti Bakar dan Kukus', 'produk/165doe6TN56K6.jpg', 'Roti isi dibakar atau kukus', 4, 5000, 5000, '2023-03-29 00:24:18');
 
 --
 -- Indexes for dumped tables
@@ -282,7 +279,7 @@ ALTER TABLE `pembayaran`
 -- AUTO_INCREMENT untuk tabel `produk`
 --
 ALTER TABLE `produk`
-  MODIFY `idproduk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `idproduk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)

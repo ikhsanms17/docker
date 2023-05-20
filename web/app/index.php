@@ -3,7 +3,6 @@ session_start();
 include 'dbconnect.php';
 
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,7 +43,7 @@ include 'dbconnect.php';
 	<div class="agileits_header">
 		<div class="container">
 			<div class="w3l_offers">
-				<p>AYO BANTU PARA WIRAUSAHA DI SEKOLAH KITA!</p>
+				<p>AYO BANTU PARA WIRAUSAHAWAN DI SEKOLAH KITA <a href="product.php">BELANJA SEKARANG!</a></p>
 			</div>
 			<div class="agile-login">
 				<ul>
@@ -159,14 +158,14 @@ include 'dbconnect.php';
 	<!-- main-slider -->
 		<ul id="demo1">
 			<li>
-				<img src="images/depansmkn1.jpg" alt="" />
+				<img src="images/2.png" alt="" />
 			</li>
 			<li>
-				<img src="images/slide2.jpg" alt="" />
+				<img src="images/1.png" alt="" />
 			</li>
 			
 			<li>
-				<img src="images/slide3.jpg" alt="" />
+				<img src="images/3.png" alt="" />
 			</li>
 		</ul>
 	<!-- //main-slider -->
@@ -220,7 +219,7 @@ include 'dbconnect.php';
 															};
 															?>
 															</div>
-															<h4>Rp<?php echo number_format($p['hargaafter']) ?> <span>Rp<?php echo number_format($p['hargabefore']) ?></span></h4>
+															<h4>Rp<?php echo number_format($p['hargaafter']) ?></h4>
 														</div>
 														<div class="snipcart-details top_brand_home_details">
 																<fieldset>
@@ -262,9 +261,9 @@ include 'dbconnect.php';
 					<h3>Hubungi Kami</h3>
 					
 					<ul class="address">
-						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Richard's Lab, DKI Jakarta.</li>
-						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@email">info@email</a></li>
-						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+62 8113 2322</li>
+						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Ikhsan & Yuni, SMK Negeri 1 Cimahi</li>
+						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@email">usahasekola@gmail.com</a></li>
+						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+62 831 0051 1885</li>
 					</ul>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
@@ -278,11 +277,11 @@ include 'dbconnect.php';
 				<div class="clearfix"> </div>
 			</div>
 		</div>
-		
+
 		<div class="footer-copy">
 			
 			<div class="container">
-				<p>© 2020 Richard's Lab. All rights reserved</p>
+				<p>© 2022 Usaha Sekolah SMK Negeri 1 Cimahi. All rights reserved</p>
 			</div>
 		</div>
 		

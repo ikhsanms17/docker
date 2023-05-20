@@ -73,7 +73,7 @@ $timenow = date("j-F-Y-h:i:s A");
 	<div class="agileits_header">
 		<div class="container">
 			<div class="w3l_offers">
-				<p>DAPATKAN PENAWARAN MENARIK KHUSUS HARI INI, <a href="products.php">BELANJA SEKARANG!</a></p>
+				<p>AYO BANTU PARA WIRAUSAHAWAN DI SEKOLAH KITA <a href="product.php">BELANJA SEKARANG!</a></p>
 			</div>
 			<div class="agile-login">
 				<ul>
@@ -97,7 +97,7 @@ $timenow = date("j-F-Y-h:i:s A");
 		<div class="container">
 		<div class="w3ls_logo_products_left1">
 				<ul class="phone_email">
-					<li><i class="fa fa-phone" aria-hidden="true"></i>Hubungi Kami : (+6281) 222 333</li>
+					<li><i class="fa fa-phone" aria-hidden="true"></i>Hubungi Kami : usahasekolah@gmail.com</li>
 				</ul>
 			</div>
 			<div class="w3ls_logo_products_left">
@@ -200,9 +200,9 @@ $timenow = date("j-F-Y-h:i:s A");
 					<h3>Hubungi Kami</h3>
 					
 					<ul class="address">
-						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Richard's Lab, DKI Jakarta.</li>
-						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@email">info@email</a></li>
-						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+62 8113 2322</li>
+						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Ikhsan & Yuni, SMK Negeri 1 Cimahi</li>
+						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@email">usahasekolah@gmail.com</a></li>
+						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+62 831 0051 1885</li>
 					</ul>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
@@ -220,7 +220,7 @@ $timenow = date("j-F-Y-h:i:s A");
 		<div class="footer-copy">
 			
 			<div class="container">
-				<p>© 2020 Richard's Lab. All rights reserved</p>
+				<p>© 2022 Usaha Sekolah SMK Negeri 1 Cimahi. All rights reserved</p>
 			</div>
 		</div>
 		
